@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <!-- Tricks -->
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ol>
+
+    <!-- tricks shortcuts -->
+    <!-- li*3>{item $} -->
+
+    <h1 class="heading-1">CSS Color h1</h1>
+    <h1 class="heading-2">CSS COlor 2</h1>
+
+    <div>
+      <p>This text is blue.</p>
+      <p class="unique">This text is green.</p>
+      <p id="unique">This text is red.</p>
+      <p id="unique" class="example">
+        This text is red because ID has higher specificity.
+      </p>
+      <p style="color: purple">
+        This text is purple because inline styles have the highest specificity.
+      </p>
+    </div>
+  </body>
+</html>

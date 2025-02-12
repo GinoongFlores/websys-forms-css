@@ -1,0 +1,36 @@
+/* Element Selector */
+p {
+  color: blue;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-weight: 400;
+}
+
+h1 {
+  color: blue;
+}
+
+/* Class Selector */
+.example {
+  color: green !important;
+}
+
+.heading-1 {
+  color: aquamarine;
+}
+
+.heading-2 {
+  color: black;
+}
+
+/* ID Selector */
+#unique {
+  color: red;
+}
+
+/* Inline Styles */
+/* This will override all other styles */
